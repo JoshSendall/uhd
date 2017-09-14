@@ -66,10 +66,11 @@ private:
 };
 
 static const uhd::dict<std::string, std::string> sd_name_to_conn = map_list_of
+    ("A", "I")
+    ("B", "Q")
     ("AB", "IQ")
     ("BA", "QI")
-    ("A",  "I")
-    ("B",  "Q")
+    
 ;
 
 /***********************************************************************
